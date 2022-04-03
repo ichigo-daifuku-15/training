@@ -6,29 +6,50 @@
     <h1>僕の仲間募集フォーム</h1>
     <form action="receive.html" method="post">
 <dl>
-<dt>お名前</dt>
-<dd><input type="text" name="your_name">
+<dd>
+    <label for="your_name">お名前:</label>
+    <input type="text" id="your_name" name="your_name">
 </dd>
-<dt>メールアドレス</dt>
-<dd><input type="text" name="your_mail">
+<dd>
+    <label for="your_mail">メールアドレス:</label>
+    <input type="text" id="your_mail" name="your_mail">
 </dd>
-<dt>性別</dt>
 <dd>
     <ul>
-        <li><input type="radio" name="gender" value="男">男性</li>
-        <li><input type="radio" name="gender" value="女">女性</li>
+        <li>
+             <input type="radio" id="genderm" name="gender" value="男">
+             <label for="genderm">男性</label>
+        </li>
+        <li>
+            <input type="radio" id="genderf" name="gender" value="女">
+            <label for="genderf">女性</label>
+        </li>
     </ul>
 </dd>
 <dt>出来ること（複数選択可）</dt>
 <dd>
     <ul>
-        <li><input type="checkbox" name="skil" value="HTML">HTML</li>
-        <li><input type="checkbox" name="skil" value="CSS">CSS</li>
-        <li><input type="checkbox" name="skil" value="JavaScript">JavaScript</li>
-        <li><input type="checkbox" name="skil" value="PHP">PHP</li>
-        <li><input type="checkbox" name="skil" value="SQL">SQL</li>
-        <li><input type="checkbox" name="skil" value="Photoshop">Photoshop</li>
-        <li><input type="checkbox" name="skil" value="Illustrator">Illustrator</li>
+        <li>
+            <label><input type="checkbox" name="skil" value="HTML">HTML</label>
+        </li>
+        <li>
+            <label><input type="checkbox" name="skil" value="CSS">CSS</label>
+        </li>
+        <li>
+            <label><input type="checkbox" name="skil" value="JavaScript">JavaScript</label>
+        </li>
+        <li>
+            <label><input type="checkbox" name="skil" value="PHP">PHP</label>
+        </li>
+        <li>
+            <label><input type="checkbox" name="skil" value="SQL">SQL</label>
+        </li>
+        <li>
+            <label><input type="checkbox" name="skil" value="Photoshop">Photoshop</label>
+        </li>
+        <li>
+            <label><input type="checkbox" name="skil" value="Illustrator">Illustrator</label>
+        </li>
     </ul>
 </dd>
 <dt>希望する職種</dt>
